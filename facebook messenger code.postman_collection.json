@@ -1,0 +1,54 @@
+{
+	"id": "218dbed2-7fca-cf91-5c34-fd40ae2394cb",
+	"name": "facebook messenger code",
+	"description": "",
+	"order": [
+		"d0141144-a53f-ef3d-eff8-20266f2b1291"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1558206825809,
+	"owner": "7447911",
+	"public": false,
+	"requests": [
+		{
+			"id": "d0141144-a53f-ef3d-eff8-20266f2b1291",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://graph.facebook.com/v2.6/me/messenger_codes?access_token=EAAF3mNaa8zIBAJKLUWbWIhUGBGA1CUCfKFOXTFMGD7Ie4NyHNjPXPR2BjMvOcwK6ssgZChRGYIakp3aluPmM5FruMVRymXSeiZBnqVOfZCXrTJKkX5YdBZBIsDkWb1TConRQdMkmrY2XF1WJuXGu4CriWKxmINVe6gmHaLiWr0lBdwQtTLtWrmbxKZAk2lfEZD",
+			"queryParams": [
+				{
+					"key": "access_token",
+					"value": "EAAF3mNaa8zIBAJKLUWbWIhUGBGA1CUCfKFOXTFMGD7Ie4NyHNjPXPR2BjMvOcwK6ssgZChRGYIakp3aluPmM5FruMVRymXSeiZBnqVOfZCXrTJKkX5YdBZBIsDkWb1TConRQdMkmrY2XF1WJuXGu4CriWKxmINVe6gmHaLiWr0lBdwQtTLtWrmbxKZAk2lfEZD",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "218dbed2-7fca-cf91-5c34-fd40ae2394cb",
+			"data": [],
+			"dataMode": "raw",
+			"name": "code ",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1558359872370,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\r\n  \"type\": \"standard\",\r\n   \"image_size\": 1000\r\n}"
+		}
+	]
+}
